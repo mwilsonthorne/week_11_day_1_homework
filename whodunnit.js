@@ -174,7 +174,7 @@
 let murderer = 'Professor Plum';
 
 if (murderer === 'Professor Plum') {
-  let murderer = 'Mrs. Peacock';
+  let murderer = 'Mrs. Peacock'; //this let variable is block scoped which means it doesn't exist outside of the {}.
 }
 
 const declareMurderer = function() {
